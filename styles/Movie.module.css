@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Aquire";
+  src: url("../font-web/AquireBold-8Ma60.otf");
+}
+@font-face {
+  font-family: "Aquirebiasa";
+  src: url("../font-web/Aquire-BW0ox.otf");
+}
+.th4 {
+  font-size: 30px;
+  color: white;
+  font-family: "Aquirebiasa";
+}
