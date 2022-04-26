@@ -43,7 +43,7 @@ const Post = (props) => {
       <style jsx>{`
         .wrapperBox {
           background-color: black;
-          height: 624px;
+          min-height: 624px;
         }
         .wrapperCard {
           background-color: white;
@@ -52,6 +52,7 @@ const Post = (props) => {
           width: 100%;
           margin-top: 25px;
           height: 500px;
+          margin-bottom: 100px;
         }
         .wrapperBack {
           box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;

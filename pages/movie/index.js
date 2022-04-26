@@ -89,7 +89,7 @@ const Movie = (props) => {
                   </div>
                 ))
               ) : (
-                <p style={{ color: "white" }}>Data Yang Anda Cari Tidak Ada</p>
+                <p className="text-datakosong">Data Yang Anda Cari Tidak Ada</p>
               )
             ) : (
               postdata.map((item) => (
@@ -126,6 +126,10 @@ const Movie = (props) => {
         }
         .buttonDetail {
           margin-top: 20px;
+        }
+        .text-datakosong {
+          color: white;
+          margin-bottom: 100px;
         }
       `}</style>
     </div>
