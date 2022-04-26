@@ -56,9 +56,7 @@ const Movie = (props) => {
           <div className="row">
             <div className="col">
               <div className="form-group">
-                <label for="formGroupExampleInput" style={{ color: "white" }}>
-                  Search Movie
-                </label>
+                <label style={{ color: "white" }}>Search Movie</label>
                 <input
                   type="text"
                   className="form-control"
