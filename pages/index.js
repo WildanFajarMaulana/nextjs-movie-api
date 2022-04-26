@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import Navbar from "../component/navbar";
+import Navbar from "@component/navbar";
 import styles from "../styles/index.module.css";
 
 export default function Home() {
@@ -30,11 +30,6 @@ export default function Home() {
             <div className="col">
               <div className="wrapperCarousel">
                 <img src="https://image.tmdb.org/t/p/w500//ejXBuNLvK4kZ7YcqeKqUWnCxdJq.jpg" />
-                {/* <i className="fa-brands fa-html5"></i>
-                <i class="fa-brands fa-php"></i>
-                <i class="fa-brands fa-react"></i>
-                <i class="fa-brands fa-js"></i>
-                <i class="fa-brands fa-vuejs"></i> */}
               </div>
             </div>
           </div>
