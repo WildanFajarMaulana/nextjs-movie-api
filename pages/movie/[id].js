@@ -5,7 +5,7 @@ const Post = (props) => {
   console.log(props);
   const data = props.data;
   return (
-    <div>
+    <div style={{ backgroundColor: "black" }}>
       <Navbar />
       <div className="wrapperBox">
         <div className="container ">

@@ -44,7 +44,7 @@ const Movie = (props) => {
     cekLast = true;
   }
   return (
-    <div>
+    <div style={{ backgroundColor: "black" }}>
       <Navbar />
       <div className="wrapperMovie">
         <div className="container">
